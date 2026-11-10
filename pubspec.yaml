@@ -1,0 +1,57 @@
+name: ultra_kl
+description: ULTRA.KL - Business Management App for Fashion Import Store
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  image_picker: ^1.1.2
+  flutter:
+    sdk: flutter
+  
+  # Database
+  drift: ^2.14.1
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  
+  # State Management
+  flutter_riverpod: ^2.4.10
+  riverpod_annotation: ^2.3.5
+  
+  # Navigation
+  go_router: ^13.2.0
+  
+  # UI
+  google_fonts: ^6.2.1
+  fl_chart: ^0.67.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  
+  # Excel Import
+  excel: ^4.0.6
+  file_picker: ^8.0.3
+  
+  # Utils
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  share_plus: ^9.0.0
+  
+  # Image handling
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  drift_dev: ^2.14.1
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.3.11
+  custom_lint: ^0.6.3
+  riverpod_lint: 2.3.10
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
